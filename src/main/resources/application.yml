@@ -1,0 +1,5 @@
+zuul:
+  routes:
+    foos:
+      path: /prometheus/**
+      url: https://server-where-request-should-be-forwarded
